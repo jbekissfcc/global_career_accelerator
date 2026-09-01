@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio website for a product designer and developer."
+    />
+    <title>James Bekis | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="James Bekis home">James<span>Bekis</span></a>
+
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Front-end developer</p>
+            <h1>I bridge the gap between design and code.</h1>
+            <p class="lead">
+              I'm a frontend engineer with 7+ years of experience specializing in SFCC and SFRA architecture. I combine clean code with modern web standards to build seamless, user-friendly retail experiences.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#projects">View projects</a>
+              <a class="button secondary" href="#contact">Let’s talk</a>
+            </div>
+            <ul class="mini-stats" aria-label="Highlights">
+              <li><strong>7+</strong><span>Years experience</span></li>
+              <li><strong>30+</strong><span>Projects shipped</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Profile illustration">
+            <div class="portrait-card">
+              <img
+                src="assets/jbekis_profile_headshot.jpeg"
+                alt="Portrait of James Bekis"
+              />
+              <div class="floating-badge badge-top">Available for work</div>
+              <div class="floating-badge badge-bottom">UI / UX • Web</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container section-header">
+          <p class="eyebrow">
+            <i class="fa fa-user" aria-hidden="true" style="margin-right: 0.3rem;"></i>
+            About
+          </p>
+          <h2>Designing thoughtful experiences, building scalable storefronts.</h2>
+        </div>
+        <div class="container about-grid">
+          <div class="about-copy">
+            <p>
+              I’m James Bekis, a front-end engineer with 7+ years of experience building
+              high-performing digital experiences for retail brands. My work sits at the
+              intersection of design and code, where I focus on creating clean, intuitive,
+              and conversion-friendly experiences that feel seamless to the user.
+            </p>
+            <p>
+              I specialize in SFCC and SFRA architecture, translating business goals into
+              practical front-end solutions that balance performance, maintainability, and
+              customer experience. I enjoy working closely with teams to ship polished,
+              reliable storefronts that are both functional and visually compelling.
+            </p>
+          </div>
+          <div class="about-panel">
+            <h3>Core strengths</h3>
+            <ul>
+              <li>SFCC / SFRA development</li>
+              <li>Front-end architecture and implementation</li>
+              <li>Responsive, accessible user experiences</li>
+              <li>Performance and UX optimization</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section alt">
+        <div class="container section-header">
+          <p class="eyebrow">
+            <i class="fa fa-briefcase" aria-hidden="true" style="margin-right: 0.3rem;"></i>
+            Experience
+          </p>
+          <h2>Selected roles and impact.</h2>
+        </div>
+        <div class="container timeline">
+          <article class="timeline-item">
+            <div class="time">2022 — 2024</div>
+            <div class="details">
+              <h3>Technical Architect</h3>
+              <p class="company">FENOM / VML</p>
+              <p>
+                Led front-end delivery across multiple Salesforce Commerce Cloud projects,
+                mentored developers, managed deployment workflows, and built reusable React.js
+                accelerators aligned with SFRA best practices.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="time">2021 — 2022</div>
+            <div class="details">
+              <h3>Front End Architect</h3>
+              <p class="company">LiveArea / Merkle</p>
+              <p>
+                Delivered scalable SFRA storefront solutions, established deployment scripts,
+                and partnered with teams to create reusable templates and a clear customization
+                framework for complex digital experiences.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="time">2018 — 2021</div>
+            <div class="details">
+              <h3>Front End Developer</h3>
+              <p class="company">Hot Topic</p>
+              <p>
+                Built and optimized responsive storefront experiences for product and campaign
+                pages, reduced CSS complexity, improved performance, and supported production
+                releases across a high-traffic retail environment.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container section-header">
+          <p class="eyebrow">
+            <i class="fa fa-code" aria-hidden="true" style="margin-right: 0.3rem;"></i>
+            Projects
+          </p>
+          <h2>Selected work with measurable impact.</h2>
+        </div>
+        <div class="container projects-grid">
+          <article class="project-card">
+            <div class="project-image" aria-label="PetQuest foster CTA landing page" style="background-image: linear-gradient(135deg, rgba(109, 78, 242, 0.3), rgba(7, 10, 15, 0.2)), url('https://jbekissfcc.github.io/01-pet-fostering-cta/img/pet.jpg'); background-size: cover; background-position: center;"></div>
+            <div class="project-info">
+              <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                <span class="tag">PetQuest</span>
+                <span class="tag">AI</span>
+              </div>
+              <h3>Foster a pet. Change a life.</h3>
+              <p>
+                Guided AI to design and build a warm, conversion-focused foster CTA landing page for
+                a rescue pet initiative. I shaped the direction, refined the copy, and directed the
+                experience toward a clear mission: helping visitors understand the impact of fostering
+                and encouraging them to take action for animals waiting for care.
+              </p>
+              <a href="https://jbekissfcc.github.io/01-pet-fostering-cta/" target="_blank" rel="noreferrer">View live page</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <p class="eyebrow">Let’s create something meaningful.</p>
+          <h2>Available for freelance and full-time opportunities.</h2>
+        </div>
+        <div class="contact-links" aria-label="Social links">
+          <a href="mailto:james.bekis@gmail.com" aria-label="Email James Bekis">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/james-bekis-15ab6056/" target="_blank" rel="noreferrer" aria-label="LinkedIn profile">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/jbekissfcc" target="_blank" rel="noreferrer" aria-label="GitHub profile">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> James Bekis</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

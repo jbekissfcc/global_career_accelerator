@@ -1,0 +1,24 @@
+{
+  "name": "global_career_accelerator",
+  "version": "1.0.0",
+  "description": "A simple, modern portfolio site built with plain HTML, CSS, and JavaScript.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbekissfcc/global_career_accelerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jbekissfcc/global_career_accelerator/issues"
+  },
+  "homepage": "https://github.com/jbekissfcc/global_career_accelerator#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
